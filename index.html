@@ -1,69 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganesh Caterers</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img width="15%" src="logo.gif" alt="Ganesh Catering service logo">
-        <p>WelCome to</p><h1> Ganesh Caterers</h1>
-        <h4>Founder of Ganesh Dewangan</h4>
+        <div>
+            <img src="logo.gif" alt="Ganesh Catering service logo">
+            <h1 class="header"><span class="welcome">Welcome to </span><span class="name">Ganesh Caterers</span></h1>
+            <!-- <h4 class="founder">Founder of Ganesh Dewangan</h4> -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#images">Images</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#contact">Contact us</a></li>
-        </ul>
-    </nav>
     <main>
+        <hr>
         <section id="home">
-
         </section>
         <section id="services">
-            <h2>Our Catering Services</h2>
-            <ul>
-                <img width="25%" src="http://www.amitasphotography.com/wp-content/uploads/2015/09/01-2677-post/Orlando-Indian-Wedding-Photographer_0746(pp_w1200_h802).jpg" alt="Wedding image">
-                <li><a href="https://en.wikipedia.org/wiki/Wedding">Wedding</a></li>
-                <div class="tenor-gif-embed" data-postid="17544540" data-share-method="host" data-aspect-ratio="1.98758" data-width="25%"><a href="https://tenor.com/view/party-time-celebrate-dancing-squidward-lisa-simpson-gif-17544540">Party Time Celebrate GIF</a>from <a href="https://tenor.com/search/party+time-gifs">Party Time GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-                <li><a href="https://en.wikipedia.org/wiki/Party">Party</a></li>
-                <img width="25%" src="pexels-fu-zhichao-587741.jpg" alt="Weddig reception image">
-                <li><a href="https://en.wikipedia.org/wiki/Wedding_reception">Wedding Reception</a></li>
-                <img width="25%" src="https://us-east-1.tchyn.io/snopes-production/uploads/2015/01/picnic_fb.jpg" alt="picnic image">
-                <li><a href="https://en.wikipedia.org/wiki/Picnic">Picnic</a></li>
-                <img width="25%" src="https://th.bing.com/th/id/OIP.MNvEWhaCxVsxXAWqFBIloAHaFu?pid=ImgDet&rs=1" alt="Birthday image">
-                <li><a href="https://en.wikipedia.org/wiki/Birthday">BirthDay</a></li>
-                <img width="25%" src="https://th.bing.com/th/id/OIP.wvEsuYYxCsMndaoqClah7wHaHU?pid=ImgDet&rs=1" alt="sweets images">
-                <li><a href="https://en.wikipedia.org/wiki/Candy">Sweets</a></li>
-            </ul>
+            <h2>Services</h2>
+            <div class="container">
+                <article><img src="plate1.jpg" alt="food"><img src="plate2.jpg" alt="food"><img src="plate3.jpg"
+                        alt="food"><img src="plate4.jpg" alt="food"><img src="plate5.jpg" alt="food">
+                </article>
+            </div>
+            <div>
+                <h3>OUR WORKS</h3>
+                <p>Ganesh Caterers serve you the best with the best to serve. From <span>birthday parties, picnic,
+                        weddings and related functions,</span> we give you a range of food items to choose for your
+                    occasion.</p>
+                <hr>
+                <p>We provide food with high quality and quantity. We pride ourselves on our excellent product range and
+                    efficient delivery of quality.</p>
+                <article>
+
+                </article>
+            </div>
         </section>
         <section id="images">
-            <h2>Our Works Photos</h2>
-            <img width="35%" src="https://lh3.googleusercontent.com/p/AF1QipO_a2137gtXdZCPuf0QS7SnCsf2OwsCt7TRzG8B=w960-h960-n-o-v1" alt="Biryani">
-            <img width="35%" src="https://lh3.googleusercontent.com/p/AF1QipNT-kKt51ljfCUSLnCRTbIw0XdGFT4vzA9-p-4y=w960-h960-n-o-v1" alt="salad">
-            <img width="35%" src="https://lh3.googleusercontent.com/p/AF1QipNT-kKt51ljfCUSLnCRTbIw0XdGFT4vzA9-p-4y=w960-h960-n-o-v1" alt="Sandwich">
-            <img width="35%" src="https://th.bing.com/th/id/OIP.0dmdJdTHQtM6MNjYTZioPQHaE8?pid=ImgDet&rs=1" alt="vegetable">
-            <img width="35%" src="https://cdn.tasteatlas.com/images/toplistarticles/fc20fbcfe5cd4690ba0cb9614192303a.jpg" alt="chinese food">
-            <img width="35%" src="https://th.bing.com/th/id/OIP.RyYpgevz29aTXhC0AYYwBgHaFF?pid=ImgDet&rs=1" alt="pizza">
+            <h2>Images</h2>
+            <img class="image" src="jyoti-singh-JfLhJzDhZ9A-unsplash.jpg" alt="food"><img class="image"
+                src="kalyani-akella-vgTntT8PmIM-unsplash.jpg" alt="food"><img class="image"
+                src="pexels-anil-sharma-12620971.jpg" alt="food"><img class="image"
+                src="pexels-prabal-pratap-singh-9609842.jpg" alt="food"><img class="image"
+                src="pexels-saveurs-secretes-12392831.jpg" alt="food"><img class="image" src="pexels-mareefe-678414.jpg"
+                alt="food"><img class="image" src="pexels-anil-sharma-12620880.jpg" alt="food">
         </section>
         <section id="about">
-            <a href="About.html">About us</a>
+            <h2>About us</h2>
+            <p>We are our service provides 2004. we are belongs to city - Baloda, Dist - District-Janjgir-Champa, State
+                - Chhattisgarh.
+                Now days we are serve our services to 3000+ happy customer and constomer are provides to any orders to
+                catering services.
+                2014 we are starting plate system service, so customer purly relax and tension free works so now days we
+                are priority fisrt
+                plate system then prefer other system. </p>
+            <hr>
+
+           <p> Looking for a perfect food affair to complement your special occasion? Look no further! Ganesh Caterers
+            provide a sumptuous food itinerary to fulfill your each and every catering need. Be it a large, mid or small
+            sized event, our full-range of outdoor and indoor catering services cover complete food preparation and
+            presentation for formal and informal gatherings.
+
+            From an array of food items to choose from, Ganesh Caterers bring to you the best from all cuisines to suit
+            your event, tastes and pockets even. So while you leave your food worries to us, we let you enjoy those
+            special moments in all the glory. So let the celebrations begin!!</p>
         </section>
     </main>
     <footer id="contact">
-        <h2>Contact Me</h2>
+        <h2>Contact Me</h2><br>
         <ul>
-            <a href="tel:+918963906336">📞 Click to call us</a><br>
+            <a href="tel:+918963906336">📞 Click to call us</a><br><br><hr>
             <a href="https://mail.google.com/mail/#inbox/messageId">📧 ananddewangan170@gmail.com</a>
             <address>Budhwari Bajar Baloda, Post-Baloda(495559), District-Janjgir-Champa(Chhattisgarh)</address>
         </ul>
 
-        <a href="#">Back to Home</a>
+        <a class="back" href="#">🔙 Back to Home</a>
+        
     </footer>
 </body>
+
 </html>
